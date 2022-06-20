@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@700&display=swap');
+
+
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: "MS PGothic", sans-serif;
+    min-height: 100vh;
+    min-width: 100vh;
+    text-align: center;
+    margin: 0;
+}
+/*--start of menu---*/
+.menu{
+    width: 100%;
+    display: flex;
+    background-color: rgb(18, 17, 17);
+    justify-content: space-between;
+    height: 60px;
+    text-align: center;
+}
+.logo{
+    width: 20%;
+    background-color: blue;
+    margin-left:25px;
+}
+.name{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 19px;
+    background-color: beige;
+    width: 250px;
+   
+}
+.logonw{
+    width:300px;
+    background-color: rgb(3, 105, 71);
+    display:flex;
+    justify-content: space-between;
+    
+}
+.item{
+    background-color: rgb(216, 123, 9);
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    padding-right: 20px;
+    width:50%;
+}
+.meunitem{
+    font-size: larger;
+    background-color: brown;
+    margin: 3px;
+    text-decoration: none;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    color: black;
+}
+/*--end of menu---*/
+/*--start of background---*/
+.background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+  
+    z-index: -1;
+    background-color: rgba(0,0,0,0.1);
+}
+.video{
+    display: flex;
+}
+
+
+/*--end of  background--*/
